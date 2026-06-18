@@ -92,7 +92,7 @@ def read_sensor_grams(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Experiment2: multi-load-cell Modbus speed test using pymodbus")
-    parser.add_argument("--port", default="COM12", help="Serial port (default: COM12)")
+    parser.add_argument("--port", default="COM46", help="Serial port (default: COM12)")
     parser.add_argument("--baud", type=int, default=115200, help="Baud rate")
     parser.add_argument(
         "--slaves",
